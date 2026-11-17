@@ -1,0 +1,2 @@
+# Preserve frozen dataset bytes so manifest SHA-256 values survive clone.
+data/** -text

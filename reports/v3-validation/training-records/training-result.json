@@ -1,0 +1,30 @@
+{
+  "status": "training_completed",
+  "optimizer_steps": 700,
+  "epochs": 4.0,
+  "max_epochs": 5,
+  "early_stopping_patience": 2,
+  "early_stopping_triggered": true,
+  "stopped_before_max_epochs": true,
+  "training_rows": 700,
+  "validation_rows": 100,
+  "baseline_validation_loss": 0.6720600128173828,
+  "best_validation_loss": 0.019893938675522804,
+  "selected_checkpoint": "<LOCAL_PROJECT>\\训练输出\\qlora-700-earlystop-v3\\checkpoints\\checkpoint-350",
+  "adapter": "<LOCAL_PROJECT>\\训练输出\\qlora-700-earlystop-v3\\adapter",
+  "trainable_parameters": 1605632,
+  "adapter_delta_l2": 3.872691161950855,
+  "all_base_parameters_frozen": true,
+  "sampled_frozen_weight_unchanged": true,
+  "sampled_frozen_weight": "base_model.model.model.layers.0.self_attn.q_proj.base_layer.weight",
+  "metrics": {
+    "train_runtime": 2065.6453,
+    "train_samples_per_second": 1.694,
+    "train_steps_per_second": 0.424,
+    "train_loss": 0.03007064061705023,
+    "epoch": 4.0
+  },
+  "peak_gpu_allocated_gb": 3.906758656,
+  "seconds_including_validation": 2111.098021499987,
+  "note": "Selected adapter saved; generation evaluation must load this adapter in a fresh process."
+}

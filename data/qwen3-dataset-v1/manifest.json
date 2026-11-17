@@ -1,0 +1,206 @@
+{
+  "seed": 42,
+  "provenance": "synthetic phrase composition, not real customer reviews",
+  "previous_example_count": 53,
+  "near_duplicate_threshold": 0.65,
+  "system_sha256": "9f3402dd57fa3165aae597fa00a70feb47d5410f72b79848d7680f0fbf3c98ac",
+  "splits": {
+    "train": {
+      "rows": 500,
+      "aspect_count_distribution": {
+        "3": 150,
+        "2": 200,
+        "1": 100,
+        "0": 50
+      },
+      "repurchase_distribution": {
+        "未明确": 300,
+        "愿意": 100,
+        "不愿意": 100
+      },
+      "features": {
+        "时间更新": 19,
+        "仅提及不评价": 92,
+        "否定范围": 21,
+        "评论内指令": 38,
+        "无目标方面评价": 50,
+        "转述实际使用者": 20,
+        "价格转折": 19,
+        "讽刺": 19,
+        "同方面多场景": 10,
+        "作者反驳他人": 8
+      },
+      "aspect_sentiment_counts": {
+        "音质/正面": 35,
+        "音质/负面": 34,
+        "音质/中性": 33,
+        "音质/正负混合": 34,
+        "舒适度/正面": 34,
+        "舒适度/负面": 35,
+        "舒适度/中性": 33,
+        "舒适度/正负混合": 34,
+        "续航/正面": 34,
+        "续航/负面": 34,
+        "续航/中性": 34,
+        "续航/正负混合": 33,
+        "连接/正面": 33,
+        "连接/负面": 35,
+        "连接/中性": 34,
+        "连接/正负混合": 34,
+        "物流/正面": 34,
+        "物流/负面": 34,
+        "物流/中性": 35,
+        "物流/正负混合": 34,
+        "客服/正面": 33,
+        "客服/负面": 34,
+        "客服/中性": 33,
+        "客服/正负混合": 34,
+        "价格/正面": 34,
+        "价格/负面": 34,
+        "价格/中性": 34,
+        "价格/正负混合": 34
+      },
+      "rejected_candidates": {
+        "duplicate_within_split": 23
+      },
+      "max_similarity_to_previous_splits_and_old": 0.147059,
+      "exact_duplicate_rows": 0,
+      "duplicate_compositions_ignoring_order": 0
+    },
+    "validation": {
+      "rows": 100,
+      "aspect_count_distribution": {
+        "1": 20,
+        "2": 40,
+        "3": 30,
+        "0": 10
+      },
+      "repurchase_distribution": {
+        "未明确": 60,
+        "愿意": 20,
+        "不愿意": 20
+      },
+      "features": {
+        "时间更新": 4,
+        "仅提及不评价": 18,
+        "否定范围": 4,
+        "评论内指令": 7,
+        "无目标方面评价": 10,
+        "作者反驳他人": 2,
+        "转述实际使用者": 3,
+        "价格转折": 4,
+        "讽刺": 4,
+        "同方面多场景": 2
+      },
+      "aspect_sentiment_counts": {
+        "音质/正面": 7,
+        "音质/负面": 7,
+        "音质/中性": 6,
+        "音质/正负混合": 6,
+        "舒适度/正面": 7,
+        "舒适度/负面": 7,
+        "舒适度/中性": 7,
+        "舒适度/正负混合": 7,
+        "续航/正面": 7,
+        "续航/负面": 7,
+        "续航/中性": 7,
+        "续航/正负混合": 7,
+        "连接/正面": 7,
+        "连接/负面": 6,
+        "连接/中性": 6,
+        "连接/正负混合": 7,
+        "物流/正面": 7,
+        "物流/负面": 7,
+        "物流/中性": 7,
+        "物流/正负混合": 6,
+        "客服/正面": 7,
+        "客服/负面": 7,
+        "客服/中性": 7,
+        "客服/正负混合": 6,
+        "价格/正面": 7,
+        "价格/负面": 7,
+        "价格/中性": 7,
+        "价格/正负混合": 7
+      },
+      "rejected_candidates": {
+        "duplicate_within_split": 2
+      },
+      "max_similarity_to_previous_splits_and_old": 0.088235,
+      "exact_duplicate_rows": 0,
+      "duplicate_compositions_ignoring_order": 0
+    },
+    "test": {
+      "rows": 100,
+      "aspect_count_distribution": {
+        "3": 30,
+        "2": 40,
+        "1": 20,
+        "0": 10
+      },
+      "repurchase_distribution": {
+        "不愿意": 20,
+        "未明确": 60,
+        "愿意": 20
+      },
+      "features": {
+        "时间更新": 4,
+        "仅提及不评价": 18,
+        "无目标方面评价": 10,
+        "否定范围": 4,
+        "评论内指令": 7,
+        "作者反驳他人": 2,
+        "转述实际使用者": 3,
+        "价格转折": 3,
+        "讽刺": 4,
+        "同方面多场景": 2
+      },
+      "aspect_sentiment_counts": {
+        "音质/正面": 8,
+        "音质/负面": 7,
+        "音质/中性": 7,
+        "音质/正负混合": 7,
+        "舒适度/正面": 7,
+        "舒适度/负面": 7,
+        "舒适度/中性": 6,
+        "舒适度/正负混合": 7,
+        "续航/正面": 7,
+        "续航/负面": 7,
+        "续航/中性": 7,
+        "续航/正负混合": 6,
+        "连接/正面": 6,
+        "连接/负面": 6,
+        "连接/中性": 7,
+        "连接/正负混合": 7,
+        "物流/正面": 7,
+        "物流/负面": 6,
+        "物流/中性": 7,
+        "物流/正负混合": 7,
+        "客服/正面": 7,
+        "客服/负面": 7,
+        "客服/中性": 6,
+        "客服/正负混合": 7,
+        "价格/正面": 6,
+        "价格/负面": 7,
+        "价格/中性": 7,
+        "价格/正负混合": 7
+      },
+      "rejected_candidates": {},
+      "max_similarity_to_previous_splits_and_old": 0.068966,
+      "exact_duplicate_rows": 0,
+      "duplicate_compositions_ignoring_order": 0
+    }
+  },
+  "cross_split_evaluation_phrase_overlap": 0,
+  "files": {
+    "annotated/test.jsonl": "b5220a9b1d351a36ea973a896eb386760d9d1740f81a884727b051b3b4660a9d",
+    "annotated/train.jsonl": "6bf889fa78ad1378b377a184cd37c420c28670582840a8e2f211239ce23ef976",
+    "annotated/validation.jsonl": "46aea2472ba5a5d368652525a97f278b7aa283a991ea92c470a2a70006783fdb",
+    "phrase_bank.json": "09ef78b8cb5973cc2e6e19cba9ff45016aab58d4b3fec8a30cc439ea98cac267",
+    "scenario_bank.json": "4116ab73cd1f4d5145efd4c0282ae788d7c664bd82e15dd0e07e35724cef31d8",
+    "task_prompt.txt": "6b7f253507dd30bc092d82290121b59c351046ffe4aaf64a220553c001c403f7",
+    "test.jsonl": "a55ab64b99761461eb85816f3bcbdc2d3332a6089100ceeda56d22562b1a851b",
+    "test_inputs.jsonl": "006e19addc9884939c1cafb4a0325f2e82e1a358c4869d6f6998844f0d8ff357",
+    "train.jsonl": "00581c21119038d45ae99add4228d4ec34b9ef6d51a468531f69ca4af4a435e6",
+    "validation.jsonl": "308d317f0dc3e92b1d3f9db8d6d7bf31bd71d60638f24255acee589e44b04853"
+  }
+}

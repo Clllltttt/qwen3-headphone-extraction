@@ -1,0 +1,45 @@
+{
+  "epochs": 5,
+  "early_stopping_patience": 2,
+  "early_stopping_min_delta": 0.0,
+  "train_batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0001,
+  "scheduler": "cosine",
+  "warmup_ratio": 0.05,
+  "max_length": 1024,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "compute_dtype": "torch.bfloat16",
+  "quantization": "NF4 double quantization",
+  "seed": 42,
+  "checkpoint_selection": "lowest validation teacher-forced loss after each epoch",
+  "loss_scope": "assistant JSON plus EOS only; system, user and padding masked",
+  "base_model": "<LOCAL_PROJECT>\\模型权重\\Qwen3-1.7B",
+  "fresh_adapter": true,
+  "test_split_accessed": false,
+  "data": {
+    "train": {
+      "rows": 700,
+      "sha256": "214ac3da2ed835b19f9fdedc899f36750b63d51a576f60d1d13813be284a34b8",
+      "max_sequence_length": 615,
+      "min_answer_tokens": 13
+    },
+    "validation": {
+      "rows": 100,
+      "sha256": "308d317f0dc3e92b1d3f9db8d6d7bf31bd71d60638f24255acee589e44b04853",
+      "max_sequence_length": 615,
+      "min_answer_tokens": 13
+    }
+  },
+  "torch": "2.9.1+cu128",
+  "transformers": "4.57.3",
+  "script_sha256": "337fd5de9ef62092f6ccc9f76b14fe8767f006be20ecc8649a7aa9296880e34f",
+  "created_at": "2026-11-07T13:54:18.536623",
+  "trainable_parameters": 1605632
+}

@@ -1,0 +1,27 @@
+{
+  "completed": 100,
+  "aspect_sentiment_micro_precision": 0.4817073170731707,
+  "aspect_sentiment_micro_recall": 0.41578947368421054,
+  "aspect_sentiment_micro_f1": 0.4463276836158192,
+  "repurchase_accuracy": 0.72,
+  "schema_accuracy": 0.87,
+  "semantic_exact_accuracy": 0.11,
+  "all_checks_accuracy": 0.08,
+  "evidence_substring_rate": 0.6524390243902439,
+  "length_limit_hits": 0,
+  "counts": {
+    "tp": 79,
+    "predicted": 164,
+    "gold": 190,
+    "schema_ok": 87,
+    "intent_ok": 72,
+    "semantic_exact": 11,
+    "all_ok": 8,
+    "evidence_substrings_valid": 107,
+    "evidence_total": 164
+  },
+  "inference_seconds": 255.1171439000027,
+  "peak_gpu_allocated_gb": 3.3075584,
+  "split": "test",
+  "limitation": "Synthetic test set; substring checks do not establish semantic evidence support."
+}

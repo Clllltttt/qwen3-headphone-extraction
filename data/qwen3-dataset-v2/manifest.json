@@ -1,0 +1,40 @@
+{
+  "seed": 20261106,
+  "training_rows": 700,
+  "original_rows": 500,
+  "new_rows": 200,
+  "validation_rows": 100,
+  "original_500_preserved": true,
+  "validation_unchanged": true,
+  "task_prompt_unchanged": true,
+  "supplement_categories": {
+    "未评价边界": 40,
+    "明确中性": 40,
+    "同方面混合": 40,
+    "逐字引用": 40,
+    "范围外评价": 20,
+    "多方面完整提取": 20
+  },
+  "supplement_repurchase": {
+    "未明确": 120,
+    "愿意": 40,
+    "不愿意": 40
+  },
+  "exact_duplicates_with_v1": 0,
+  "supplement_exact_duplicate_rows": 0,
+  "max_similarity_to_v1": 0.07339449541284404,
+  "rejected_candidates": {
+    "duplicate": 3
+  },
+  "training_max_tokens": 616,
+  "new_training_phrase_count": 62,
+  "data_provenance": "synthetic combinations of authored atoms; not real comments or independent human annotation",
+  "test_status": "v1 test accessed only for exclusion and previously analyzed; use as regression, not fresh final evaluation",
+  "files": {
+    "supplement_200.jsonl": "d2005c8d110c0188ec7d3072c2bca1a3a425cd2454d186668bdcdb8b1df11ebe",
+    "supplement_annotated.jsonl": "614a3b9b6f45801b21d95ae259bac73157742ea7c73bafb5683eaccf705aacc0",
+    "task_prompt.txt": "6b7f253507dd30bc092d82290121b59c351046ffe4aaf64a220553c001c403f7",
+    "train.jsonl": "214ac3da2ed835b19f9fdedc899f36750b63d51a576f60d1d13813be284a34b8",
+    "validation.jsonl": "308d317f0dc3e92b1d3f9db8d6d7bf31bd71d60638f24255acee589e44b04853"
+  }
+}

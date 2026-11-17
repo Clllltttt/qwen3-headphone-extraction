@@ -1,0 +1,47 @@
+{
+  "train": {
+    "rows": 500,
+    "schema_and_evidence_substring_checks_passed": 500,
+    "token_lengths": {
+      "min": 434,
+      "median": 529,
+      "p95": 592,
+      "max": 616
+    },
+    "rows_above_512_tokens": 333,
+    "rows_above_1024_tokens": 0,
+    "minimum_answer_tokens_including_eos": 14,
+    "generation_prefix_matches_all_rows": true
+  },
+  "validation": {
+    "rows": 100,
+    "schema_and_evidence_substring_checks_passed": 100,
+    "token_lengths": {
+      "min": 436,
+      "median": 543,
+      "p95": 610,
+      "max": 616
+    },
+    "rows_above_512_tokens": 68,
+    "rows_above_1024_tokens": 0,
+    "minimum_answer_tokens_including_eos": 14,
+    "generation_prefix_matches_all_rows": true
+  },
+  "test": {
+    "rows": 100,
+    "schema_and_evidence_substring_checks_passed": 100,
+    "token_lengths": {
+      "min": 436,
+      "median": 539,
+      "p95": 607,
+      "max": 623
+    },
+    "rows_above_512_tokens": 70,
+    "rows_above_1024_tokens": 0,
+    "minimum_answer_tokens_including_eos": 14,
+    "generation_prefix_matches_all_rows": true
+  },
+  "test_inputs_contains_no_assistant_answers": true,
+  "recommended_max_length": 1024,
+  "limitations": "Automated checks verify structure and substrings, not semantic truth. All sets are synthetic."
+}
